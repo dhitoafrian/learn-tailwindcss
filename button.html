@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <body class="m-12">
+    <!-- primary -->
+    <div class="flex gap-2 mb-10">
+      <button
+        class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition"
+      >
+        Save
+      </button>
+      <button
+        class="px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition"
+      >
+        Buy
+      </button>
+      <button
+        class="px-4 py-2 bg-sky-600 text-white rounded-md hover:bg-sky-700 transition"
+      >
+        Submit
+      </button>
+    </div>
+
+    <!-- secondary -->
+    <div class="flex gap-2 mb-10">
+      <button
+        class="px-4 py-2 border border-gray-500 text-gray-700 rounded-md hover:bg-gray-100 transition"
+      >
+        Learn More
+      </button>
+      <button
+        class="px-4 py-2 border border-gray-500 text-gray-700 rounded-md hover:bg-gray-100 transition"
+      >
+        See More
+      </button>
+      <button
+        class="px-4 py-2 border border-gray-500 text-gray-700 rounded-md hover:bg-gray-100 transition"
+      >
+        Cancel
+      </button>
+    </div>
+
+    <!-- danger -->
+    <div class="flex gap-2 mb-10">
+      <button
+        class="px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 transition"
+        onclick="alert('are you sure you want to delete this item?')"
+      >
+        Delete
+      </button>
+    </div>
+
+    <!-- icon -->
+    <div class="flex gap-2">
+      <button
+        class="flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="w-5 h-5"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+        >
+          <path d="M5 12h14M12 5l7 7-7 7" />
+        </svg>
+        Next
+      </button>
+
+      <button
+        class="flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition"
+      >
+        Save
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="w-5 h-5"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+        >
+          <path d="M5 12h14M12 5l7 7-7 7" />
+        </svg>
+      </button>
+    </div>
+  </body>
+</html>
